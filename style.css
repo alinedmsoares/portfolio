@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .home__menu_item{
+    color: #A100D9;
+    text-transform: uppercase;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+.home__menu_item:hover{
+    color: #d65bff;
+}
+.home__menu{
+    display: flex;
+    width: 30%;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-left: 5%;
+ }
+ .home__menu_item:first-child{
+    border-bottom: 2px solid #A100D9;
+ }
+ .home__container{
+     display: flex;
+     height: 100vh;
+     width: 100%;
+ }
+ .home__info{
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+ .home__background{
+     background-color: #A100D9;
+     width: 50%;
+     height: 100vh;
+     position: absolute;
+     left: 50%;
+ }
+ .home__info_name{
+    color: #A100D9;
+    text-transform: uppercase;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    font-size: 3.2em;
+ }
+ .home__info_description{
+    color: #8F8F8F;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    font-size: 1.3em;
+ }
+ .home__info_links{
+     width: 30%;
+     height: 10vh;
+     display: flex;
+     justify-content: space-around;
+     align-items: flex-end;
+ }
+ .home__info_links_linkedin{
+     background-image: url(img/linkedin.png);
+     width: 25%;
+     height: 6vh;
+     border: none;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 50%;
+     border-radius: 5px;
+     background-color: white;
+     box-shadow: 0px 3px 6px 0px #00000034;
+     
+ }
+ .home__info_links_gmail{
+    background-image: url(img/gmail.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    width: 25%;
+     height: 6vh;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px 0px #00000034;
+}
+.home__info_links_github{
+    background-image: url(img/github.png);
+    width: 25%;
+     height: 6vh;
+    border: none;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px 0px #00000034;
+}
+.home__photo{
+    position: relative;
+    z-index: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    right: 100px;
+}
+.home__photo img{
+    border-radius: 100px;
+}
